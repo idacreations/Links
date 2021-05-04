@@ -11,7 +11,6 @@
         background-size: 400rem;
         position: relative;
         margin:4rem;
-        display: block;
     
     }
     
@@ -23,7 +22,8 @@
         width:500px;
         height:600px;
     
-        margin:auto;
+        margin-left: auto;
+        margin-right:auto;
     
         background-color:white;
         border-radius: 20px;
@@ -61,7 +61,7 @@
         background: rgb(255,14,14);
     background: linear-gradient(214deg, rgb(255, 218, 50) 0%, rgba(255,156,91,1) 50%, rgb(58, 43, 1) 100%);
     height: 400px;
-    background-repeat: no-repeat;
+
     background-size: 80rem;
     }
     
@@ -78,7 +78,6 @@
     
     .linkscontainer{
         grid-area: b;
-        display: block;
         margin:auto;
     }
     
@@ -144,7 +143,7 @@
         background-size: 400rem;
         position: relative;
         margin:4rem;
-        display: block;
+    
     
     }
     
@@ -152,12 +151,12 @@
         font-family: "Kumbh Sans", sans-serif;
         font-size:16px;
         font-weight: 400;
-       
+    
         width:400px;
         height:600px;
-    
-        display: block;
-        margin:auto;
+   
+        margin-left: auto;
+        margin-right:auto;
     
         background-color:white;
         border-radius: 20px;
@@ -193,10 +192,9 @@
     }
     .cover{
         grid-area: a;
-        background: rgb(255,14,14);
-    background: linear-gradient(214deg, rgb(255, 218, 50) 0%, rgba(255,156,91,1) 50%, rgb(180, 132, 0) 100%);
     height: 400px;
-    background-repeat: no-repeat;
+
+ 
     background-size: 80rem;
     }
     
@@ -207,14 +205,15 @@
         margin-right: auto;
         color:white;
         grid-area: a;
-    
+      
+        text-align: center;
     }
     
     
     .linkscontainer{
         grid-area: b;
-        display: block;
         margin:auto;
+        
     }
     
     
@@ -226,6 +225,7 @@
     }
     p{
         line-height: 25px;
+        
     }
     
     .website{
@@ -255,6 +255,7 @@
     
     li{
         display: block;
+     
     }
     
     .links{
